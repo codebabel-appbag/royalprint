@@ -94,22 +94,30 @@ public class royalprint {
     java file: your_project_folder/src/main/java/com/test/Main.java
     pom file: your_project_folder/pom.xml
     \npom.xml~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-    <groupId>com.teste</groupId>
-    <artifactId>app-teste</artifactId>
-    <version>1.0</version>
-    <properties>
-        <maven.compiler.release>17</maven.compiler.release>
-    </properties>
-    <dependencies>
-        <dependency>
-        <groupId>com.codebabel.royalprint</groupId>
-        <artifactId>royalprint</artifactId>
+    <project xmlns="http://maven.apache.org/POM/4.0.0" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+        <modelVersion>4.0.0</modelVersion>
+        <groupId>com.codebabel.test</groupId>
+        <artifactId>app-teste</artifactId>
         <version>1.0.0</version>
-        </dependency>
-    </dependencies>
+        <properties>
+            <maven.compiler.release>17</maven.compiler.release>
+            <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        </properties>
+        <repositories>
+            <repository>
+                <id>jitpack.io</id>
+                <url>https://jitpack.io</url>
+            </repository>
+        </repositories>
+        <dependencies>
+            <dependency>
+                <groupId>com.github.codebabel-appbag</groupId>
+                <artifactId>libs.java.royalprint</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+        </dependencies>
     </project>
     \nMain.java~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     package com.teste;
