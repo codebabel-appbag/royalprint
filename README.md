@@ -171,4 +171,4 @@ see ya!
 Valeu por usar a biblioteca royalprint.
 tmj!
 ~~~
-© Copyright 2024, Codebabel royalprint cross-language library.
+© Copyright 2026, Codebabel royalprint cross-language library.
