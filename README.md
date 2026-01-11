@@ -23,6 +23,7 @@ especial: printjv("Hello ...") printa texto, array, números...
 * [All print formats](#formats)
 * [Basic use](#basic)
 * [Complete use](#complete)
+* [pom.xml](#pom)
 * [Change log](#changelog)
 
 ### installation
@@ -53,6 +54,20 @@ royalprint();
 // como era no passado/how it was in the past.
 System.out.println("royalprint");
 ~~~
+
+### treeview
+## 🔹🔹 treeview
+~~~
+trievew::
+    your_project_folder/src/main/java/com/test/
+
+java file:
+    your_project_folder/src/main/java/com/test/Main.java
+
+pom file:
+    your_project_folder/pom.xml
+~~~
+
 ### basic
 ## 🔹🔹 Basic use
 ~~~java
@@ -68,6 +83,7 @@ public class Main {
     }
 }
 ~~~
+
 ### complete
 ## 🔹 Complete use
 ~~~java
@@ -108,6 +124,37 @@ public class Main {
     }
 }
 ~~~
+
+### pom
+## 🔹 pom.xml
+~~~xml
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.test</groupId>
+    <artifactId>app-teste</artifactId>
+    <version>1.0.0</version>
+    <properties>
+        <maven.compiler.release>17</maven.compiler.release>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
+    <dependencies>
+        <dependency>
+            <groupId>com.github.codebabel-appbag</groupId>
+            <artifactId>royalprint</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
+</project>
+~~~
+
 ### changelog
 ## 🚨 Change Log
 |Version| Version Name | Upgrade Latency |
