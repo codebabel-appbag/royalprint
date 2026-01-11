@@ -114,7 +114,7 @@ public class royalprint {
         <dependencies>
             <dependency>
                 <groupId>com.github.codebabel-appbag</groupId>
-                <artifactId>libs.java.royalprint</artifactId>
+                <artifactId>royalprint</artifactId>
                 <version>1.0.0</version>
             </dependency>
         </dependencies>
