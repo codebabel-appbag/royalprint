@@ -4,11 +4,13 @@
 ## 📃 Description / Descrição
 ~~~
 {EN}
-royalprint is perfect for simplifying the information that needs to go to the console, similar to printing in PHP echo("Hi"), println("Hello ..."), puts("She Knows")... and more.
+royalprint is perfect for simplifying the information that needs to go to the console,
+similar to printing in PHP echo("Hi"), println("Hello ..."), puts("She Knows")... and more.
 special: printjv("Hello ...") print text, array, numbers...
 
 {PTBR}
-royalprint é perfeita para simplificar as informações que precisam ir para o console, com similaridade de impressão em PHP echo("Hi"), println("Oi"), puts("She Knows")... e mais.
+royalprint é perfeita para simplificar as informações que precisam ir para o console,
+com similaridade de impressão em PHP echo("Hi"), println("Oi"), puts("She Knows")... e mais.
 especial: printjv("Hello ...") printa texto, array, números...
 ~~~
 
@@ -28,9 +30,7 @@ especial: printjv("Hello ...") printa texto, array, números...
 
 ### installation
 ## 💻 Installation / Instalação:
-> `npm i @codebabel/royalprint`
-
-> `yarn add @codebabel/royalprint`
+> by pom.xml and import
 
 ### formats
 ## 📊 All print formats / Todos os formatos
