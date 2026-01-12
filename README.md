@@ -94,13 +94,13 @@ import static com.codebabel.royalprint.royalprint.*;
 public class Main {
     public static void main(String[] args) {
         // royalprint println like
-        printjv("royalprint");
+        printjv("royalprint");           // * special for array and print
         
-        int[] numbers = {1, 2, 3, 4, 5}; // array print
-        printjv(numbers);
+        int[] numbers = {1, 2, 3, 4, 5};
+        printjv(numbers);                // * special for array and print
         
         String[] names = {"Java", "CodeBabel"};
-        printjv(names);
+        printjv(names);                  // * special for array and print
         
         puts("Hi!"); // Ruby
         
