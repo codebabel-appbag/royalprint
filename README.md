@@ -73,6 +73,7 @@ pom file:
 ~~~java
 package com.teste;
 import static com.codebabel.royalprint.royalprint.*;
+
 public class Main {
     public static void main(String[] args) {
     // royalprint println like
@@ -89,6 +90,7 @@ public class Main {
 ~~~java
 package com.teste;
 import static com.codebabel.royalprint.royalprint.*;
+
 public class Main {
     public static void main(String[] args) {
         // royalprint println like
